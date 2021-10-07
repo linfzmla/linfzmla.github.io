@@ -1,0 +1,345 @@
+body {
+   
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+#seccionTecnologias {
+  background: #111111;
+  padding-top: 60px;
+}
+
+#seccionInicio {
+  background: #555555;
+  padding-top: 60px;
+}
+#tablaDatos{
+  border: 1px solid #00ccff;
+  
+}
+#seccionPortafolio {
+  background: #555555;
+  padding-top: 60px;
+}
+
+#seccionContacto {
+    background: #222222;
+    padding-top: 60px;
+  }
+  #seccionReferencias {
+    background: #444444;
+    padding-top: 60px;
+  }
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #222222 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #00ccff;
+    border-color: #00ccff;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #00ccff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #444444;
+    color: #00ccff
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #444444;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(235, 245, 145);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(235, 245, 145);
+    box-shadow: 5px 7px 9px -4px rgb(235, 245, 145);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #00ccff !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #00ccff !important;
+}
+
+.frontside .card .card-body img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+/*----------------referencias----------------------------*/
+.carousel-item{min-height:300px; background:#ccc; }
+
+/*-------------------contacto--------------------*/
+.bg-primary {
+    background-color: #000 !important;
+   }
+   
+   .bg-circle
+   {
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     padding: 14px 4px;
+     color: #ececec;
+     text-align: center;
+     border-radius: 50%;
+   }
+   
+   .bg-circle-outline
+   {
+     width: 50px;
+     height: 50px;
+     color:smoke;
+     padding: 8px 2px;
+     border: 2px solid;
+     border-color: smoke;
+     border-radius: 50%;
+   }
+   
+   
+   .bg-circle a, a:hover, .media a:focus
+   {
+     text-decoration: none !important;
+     outline: none;
+     color: #ececec;
+   }
+   .bg-circle-outline a, a:hover, .media a:focus
+   {
+     text-decoration: none !important;
+     outline: none;
+     color: #ececec;
+   }
+   
+
+
+   /*------------------------------------tecnologias------------------*/
+   
+
+
+
+
+
+.circle {
+  width: 40vh;
+  height: 40vh;
+  position: absolute;
+  border-radius: 50%;
+  
+}
+
+
+
+#one {
+  background-color: rgba(12, 27, 112, 0.55);
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+  
+}
+#one1 {
+  background-color: rgba(0,0,225, 0.45);
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+#one2 {
+  background-color: rgba(0,0,225, 0.45);
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+
+#two {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#three {
+  background-color: red;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#four {
+  background-color: orange;
+  transition: 1s;
+  opacity: 0.5;
+}
+#five {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#cc {
+  position:relative;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+
+#cc:hover #two {
+  transform: translate(0px, 75px);
+}
+#cc:hover #three {
+  transform: translate(0px, -75px);
+}
+#cc:hover #four {
+  transform: translate(75px, 0px);
+}
+#cc:hover #five {
+  transform: translate(-75px, 0px);
+}
+
+#mb {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #3B3A6D;
+  color: white;
+  
+}
+
+#mb a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0px;
+}
+
+#mb p {
+  padding: 5px;
+  margin: 0px;
+}
