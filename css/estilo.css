@@ -343,3 +343,18 @@ section .section-title {
   padding: 5px;
   margin: 0px;
 }
+
+.cmn-divfloat {
+  position: fixed !important;
+  bottom: 45px;
+  right: 115px;
+  display: none;
+}
+.cmn-btncircle {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+}
